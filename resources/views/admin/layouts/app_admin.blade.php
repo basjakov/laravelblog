@@ -51,6 +51,13 @@
                                         <li><a href="{{route('admin.article.index')}}">մատերիալներ</a></li>
                                 </ul>
                             </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Users & moderation</a>
+                                <ul class="dropdown-menu" role="menu">
+                                        <li><a href="{{route('admin.user_managment.user.index')}}">Օգտագործողներ</a></li>
+
+                                </ul>
+                            </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
